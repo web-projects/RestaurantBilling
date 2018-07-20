@@ -29,10 +29,10 @@ BRANCHING
 git branch -a
 
 git checkout -b BRANCHNAME
-git add <file>...
+git add -A
 git commit -a -m "COMMENT"
 
 git checkout master
-git merge readme-update --no-ff
+git merge BRANCHNAME --no-ff
 
 git push
