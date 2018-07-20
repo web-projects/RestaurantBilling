@@ -11,7 +11,9 @@ GIT
 git config --global user.email "web.projects@yahoo.com"
 git config --global user.name "Jon Bianco"
 
+------------------------------
 REPOSITORY
+------------------------------
 
 git init
 git add -A
@@ -19,11 +21,18 @@ git commit -m "Initial Commit"
 git remote add origin git@github.com:web-projects/RestaurantBilling.git
 git push -u origin master
 
+------------------------------
 BRANCHING
+------------------------------
 
 # CHECK FOR EXISTING BRANCHES
 git branch -a
 
 git checkout -b BRANCHNAME
-git checkout BRANCHNAME
-git push origin BRANCHNAME
+git add <file>...
+git commit -a -m "COMMENT"
+
+git checkout master
+git merge readme-update --no-ff
+
+git push
