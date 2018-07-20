@@ -19,9 +19,11 @@ git commit -m "Initial Commit"
 git remote add origin git@github.com:web-projects/RestaurantBilling.git
 git push -u origin master
 
-BRANCH
+BRANCHING
 
-git branch BRANCHNAME
-git add -A
-git commit -m "Branch"
-git push -u origin-master
+# CHECK FOR EXISTING BRANCHES
+git branch -a
+
+git checkout -b BRANCHNAME
+git checkout BRANCHNAME
+git push origin BRANCHNAME
