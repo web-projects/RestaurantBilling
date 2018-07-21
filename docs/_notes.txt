@@ -36,3 +36,9 @@ git checkout master
 git merge BRANCHNAME --no-ff
 
 git push
+
+------------------------------
+Android Emulators
+------------------------------
+
+https://www.visualstudio.com/en-us/features/msft-android-emulator-vs.aspx
